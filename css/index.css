@@ -1,0 +1,175 @@
+body {
+  font-family: 'Work Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main_nav {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.main_logo {
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  top: 0;
+  left: 100px;
+}
+
+.main_logo img {
+  width: 100%;
+  height: 100%;
+}
+.navbar {
+  width: 100%;
+  padding: 0;
+}
+.back_img {
+  width: 100vw;
+  height: 100vh;
+}
+.back_img img {
+  width: 100%;
+  height: 100%;
+}
+.navbar-collapse {
+  margin-left: 200px;
+}
+.brand_name {
+  display: none;
+}
+
+/* .navbar-nav > li > a {
+  color: white !important;
+  font-weight: 700;
+} */
+
+.navbar .navbar-toggler {
+  margin-left: 0px;
+}
+.introduction {
+  position: relative;
+}
+.introduction .introduction_text {
+  position: absolute;
+  left: 30px;
+  right: 30px;
+  bottom: 100px;
+  padding: 2rem;
+  color: white;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.vision_mission {
+  background-color: #222222;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+  padding: 2rem;
+}
+.vision_mission .container {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.vision {
+  background-color: white;
+  padding: 1.5rem;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.mission {
+  background-color: white;
+  padding: 1.5rem;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.issues_of_interest {
+  width: 100%;
+  background-color: white;
+  padding: 1.3rem;
+}
+.issues_of_interest .list-group .list-group-item {
+  border: none;
+}
+.objectives {
+  width: 100%;
+  background-color: white;
+  padding: 1.2rem;
+}
+.title {
+  font-weight: 800;
+  text-align: center;
+}
+.contact_us {
+  background-color: #242121;
+  width: 100vw;
+  height: 100vh;
+}
+
+.extra {
+  background-color: #222222;
+  width: 100vw;
+  height: 100vh;
+}
+
+.main {
+  background-color: black;
+  width: 100%;
+}
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.main_footer {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: black;
+  background-color: #d3d3d3;
+}
+.main_footer .trademark,
+.main_footer .contact_us_addresses {
+  padding: 1.5rem;
+  border-top: rgb(204, 187, 187) 2px solid;
+  font-weight: 800;
+}
+
+main {
+  position: relative;
+}
+@media (min-width: 40rem) {
+  .brand_name {
+    display: block;
+    margin-top: 12px;
+    margin-left: 250px;
+    font-weight: 700;
+  }
+  .main_logo {
+    width: 100px;
+    height: 100px;
+  }
+  .introduction .introduction_text {
+    position: absolute;
+    bottom: 200px;
+    left: 200px;
+    right: 200px;
+  }
+  .vision_mission .container {
+    flex-direction: row;
+  }
+}
