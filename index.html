@@ -42,7 +42,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact Us</a>
                   </li>
-                  <li class="nav-item" style="background-color: green;">
+                  <li class="nav-item" id="mobile_btn" style="background-color: green;">
                     <a class="nav-link" href="#contact">Donate</a>
                   </li>
               </ul>
@@ -75,9 +75,13 @@
                   <p>
                       African Peace Organisation is an NGO with an aim of building sustainable hope and development
                       for African community using rebuilding love and peace program as per their natural character. It 
-                      has continuously worked with various communities, civil society Organisations, local leaders, 
+                      has continuously<span class="reduce"> worked with various communities, civil society Organisations, local leaders, 
                       government bodies and engineers to promote a sustainable, equitable and participatory changes and
                       development in communities.
+                        </span>
+                        <button id="view_more"  type="button" class="btn btn-success">
+                            Read More
+                        </button>
                   </p>
               </div>
         </section>
@@ -130,7 +134,25 @@
                 </div>
             </div>
             <div class="container">
-                <div class="objectives">
+                <div class="issues_of_interest" id ="obj_mobile">
+                    <p class="title">Our objectives</p>
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-action list-group-item-light">
+                            Counselling and Conflict Resolution, the project aims at giving people
+                            free and adequate Counselling to support their mental and moral well being
+                            including follow up activities
+                        </li>
+                        <li class="list-group-item list-group-item-action list-group-item-light">
+                            Mass awareness programs and advocacy, where relevant information
+                            and sensitization concerning community wellbeing and developments
+                            are passed on through mass media platformsand written materials be
+                            ing distributed in communities.
+                
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div class="objectives" id= "obj_pc">
                     <p class="title">Our main Objectives</p>
                     <div class="objectives_content">
                         <div id="demo" class="carousel slide" data-ride="carousel">
@@ -193,7 +215,7 @@
         </section>
         <footer class="main_footer" id="contact">
              <div class="contact_us_addresses">
-                    <p>Address: Akabahizi/Gitega/Nyarugenge/Kigali/Rwanda</p>
+                    <p>Address: Akabahizi/ Gitega/ Nyarugenge/ Kigali/ Rwanda</p>
                     <p>Email: africanpeaceoriganisation@gmail.com</p>
                     <p>Telephone: +250 788 252 089</p>
                     <div class="social_media">
@@ -210,6 +232,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <!-- <script src="./index.js"></script> -->
+    <script src="./index.js"></script>
 </body>
 </html>

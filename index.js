@@ -3,19 +3,15 @@ var brand_name = document.querySelector(".brand_name");
 var main_nav = document.querySelector(".main_nav");
 var introduction = document.querySelector(".introduction");
 var hover_class = document.querySelector(".hover_class");
+var view_btn = document.querySelector("#view_more");
+var reduce = document.querySelector(".reduce")
 
-function displayNav(event){
-    main_logo.style.display = "block";
-    brand_name.style.display = "block";
-}
 
-main_nav.addEventListener("mouseover", displayNav)
+view_btn.addEventListener("click", function(event){
+    event.preventDefault();
+    reduce.style.display = "inline";
+    view_btn.style.display = "none";
+})
 
-hover_class.addEventListener("mouseenter", displayNav);
-introduction.addEventListener("mousemove", displayNav);
 
-window.addEventListener("scroll",function(event){
-    main_logo.style.display = "none";
-    brand_name.style.display = "none";
-});
 
