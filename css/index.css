@@ -195,6 +195,9 @@ main {
    margin-top: 0.4px; 
 } */
 @media (min-width: 40rem) {
+  #obj_mobile {
+    display: none;
+  }
   #mobile_btn {
     display: block;
   }
